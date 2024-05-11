@@ -1,7 +1,7 @@
 {
   "name": "xia-resume",
   "version": "0.1.0",
-  "homepage": "https://pegasus57.github.io/xia-resume/",
+  "homepage": "https://pegasus57.github.io/xia-resume",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
