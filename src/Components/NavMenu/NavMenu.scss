@@ -1,0 +1,14 @@
+.navMenuContainer{
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  .navMenuEle{
+    margin-right: 20px;
+    :hover{
+      cursor: pointer;
+      color: gray;
+    }
+  }
+
+}

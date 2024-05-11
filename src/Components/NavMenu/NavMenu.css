@@ -1,0 +1,15 @@
+.navMenuContainer {
+  display: flex;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.navMenuContainer .navMenuEle {
+  margin-right: 20px;
+}
+.navMenuContainer .navMenuEle :hover {
+  cursor: pointer;
+  color: gray;
+}
+
+/*# sourceMappingURL=NavMenu.css.map */
