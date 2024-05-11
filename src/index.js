@@ -4,11 +4,15 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
+import BasicSpeedDial from "./Components/SpeedNav/SpeedNav";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <BrowserRouter>
+            <div style={{position:"fixed", top: 10 , left: 10}}>
+                <BasicSpeedDial/>
+            </div>
             <App/>
         </BrowserRouter>
     </React.StrictMode>
