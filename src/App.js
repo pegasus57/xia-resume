@@ -1,24 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-
+import { Route, Routes} from "react-router-dom";
+import Error from "./Components/Error/Error";
+import MainPage from "./Components/MainPage/MainPage"
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import PhoneIcon from "@mui/icons-material/Phone";
+import EmailIcon from "@mui/icons-material/Email";
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    return (
+        <div className="App">
+            <Routes>
+                <Route path="/" element={<MainPage/>} />
+                <Route path="/menu" element={<div>2</div>} />
+                <Route path="*" element={<Error />} />
+            </Routes>
+        </div>
   );
 }
 

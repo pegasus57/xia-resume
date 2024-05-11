@@ -1,0 +1,49 @@
+.mainPageContainer{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  .mainPagePicsContainer{
+    margin-left: 100px;
+    display: flex;
+    .mainPagePicDiv{
+      .mainPagePic{
+        width: 100px;
+        margin-left: 20px;
+      }
+    }
+  }
+
+  .mainPageTextContainer{
+    margin-right: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center
+  }
+}
+.mainPageWelcomeLink{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:40px;
+  font-weight:500;
+  :hover{
+    cursor: pointer;
+    color: gray;
+  }
+}
+.mainPageContactContainer{
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  .mainPageContactEle{
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    size: 20px;
+    :hover{
+      cursor: pointer;
+      color: gray;
+    }
+  }
+}

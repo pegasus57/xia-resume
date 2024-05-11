@@ -1,0 +1,50 @@
+.mainPageContainer {
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.mainPageContainer .mainPagePicsContainer {
+  margin-left: 100px;
+  display: flex;
+}
+.mainPageContainer .mainPagePicsContainer .mainPagePicDiv .mainPagePic {
+  width: 100px;
+  margin-left: 20px;
+}
+.mainPageContainer .mainPageTextContainer {
+  margin-right: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.mainPageWelcomeLink {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  font-weight: 500;
+}
+.mainPageWelcomeLink :hover {
+  cursor: pointer;
+  color: gray;
+}
+
+.mainPageContactContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.mainPageContactContainer .mainPageContactEle {
+  display: flex;
+  align-items: center;
+  margin-left: 20px;
+  size: 20px;
+}
+.mainPageContactContainer .mainPageContactEle :hover {
+  cursor: pointer;
+  color: gray;
+}
+
+/*# sourceMappingURL=MainPage.css.map */
