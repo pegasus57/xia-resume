@@ -18,7 +18,6 @@ import WorkingPartTwo from "./Components/Working/WorkingPartTwo";
 import Dynamo from "./Components/Dynamo/Dynamo";
 import Rhino from "./Components/Rhino/Rhino";
 import HandCraft from "./Components/Handcraft/HandCraft";
-import BasicSpeedDial from "./Components/SpeedNav/SpeedNav";
 function App() {
     return (
         <div className="App">
