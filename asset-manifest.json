@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/xia-resume/static/css/main.75383733.css",
-    "main.js": "/xia-resume/static/js/main.c8d77a9f.js",
+    "main.js": "/xia-resume/static/js/main.c73f84dc.js",
     "static/js/453.76cbde83.chunk.js": "/xia-resume/static/js/453.76cbde83.chunk.js",
     "static/media/07-FALL2023_CHAYUN2.jpg": "/xia-resume/static/media/07-FALL2023_CHAYUN2.834f5c685eb81cc6eaf5.jpg",
     "static/media/04-FALL2022_RESIDENCIAL.jpg": "/xia-resume/static/media/04-FALL2022_RESIDENCIAL.582f1a1f5c13edf128b0.jpg",
@@ -33,11 +33,11 @@
     "static/media/mainPage2.png": "/xia-resume/static/media/mainPage2.333da12a8ba9892e3bd5.png",
     "index.html": "/xia-resume/index.html",
     "main.75383733.css.map": "/xia-resume/static/css/main.75383733.css.map",
-    "main.c8d77a9f.js.map": "/xia-resume/static/js/main.c8d77a9f.js.map",
+    "main.c73f84dc.js.map": "/xia-resume/static/js/main.c73f84dc.js.map",
     "453.76cbde83.chunk.js.map": "/xia-resume/static/js/453.76cbde83.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.75383733.css",
-    "static/js/main.c8d77a9f.js"
+    "static/js/main.c73f84dc.js"
   ]
 }
